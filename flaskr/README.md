@@ -1,4 +1,7 @@
 # Flaskr
+This is a basic blog application called Flaskr. Users are able to register, log in, create posts and edit or delete their own posts. 
+
+
 For this project, ensure that you have `python3`, `pip3` and `virtualenv` library set up.
 ### Setup
 1. Clone this repo onto your local machine.
@@ -24,7 +27,7 @@ For this project, ensure that you have `python3`, `pip3` and `virtualenv` librar
 
 # File Structure   
 The file structure is laid out as follows:
-### 1. Flaskr/
+## 1. Flaskr/
 This is the python package that contains the application code and files. Some of the files that are in this directory are: 
 
 
@@ -41,13 +44,17 @@ This is the python package that contains the application code and files. Some of
 
 
 **blog.py** contains blog related functions and routes. The functions that allow you to create, post, update and delete blog posts. 
-
 When creating a blog post, errors are thrown if any of the fields are incomplete. 
 
-### 2. Tests/
+## 2. Tests/
 The tests directory contains comprehensive tests that ensure the code works as expected.
-### 3. venv/
+If you wish to run the tests, enter the following commands into your terminal:
+`$ pip install '.[test]'`
+`$ pytest`
+
+## 3. venv/
 This contains the virtual environment where Flask and other dependencies are installed. 
+
 
 
 For more information on virtual environments go to: (https://docs.python.org/3/library/venv.html "Creation of virtual environments")
