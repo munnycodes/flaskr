@@ -3,7 +3,7 @@ This is a basic blog application called Flaskr. Users are able to register, log 
 
 ## Table of Contents
 * [Setup](#setup)
-* [File Structure](#file structure)
+* [File Structure](#filestructure)
     * [Flaskr](#flaskr)
     * [Tests](#tests)
     * [Venv](#venv)
