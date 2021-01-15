@@ -30,7 +30,11 @@ This is the python package that contains the application code and files.
 This contains all the test modules that ensure the code works as expected.
 ## 3. venv/
 This contains the virtual environment where Flask and other dependencies are installed. 
-for more information on virtual environments go to: (https://docs.python.org/3/library/venv.html "Creation of virtual environments")
+
+
+For more information on virtual environments go to: (https://docs.python.org/3/library/venv.html "Creation of virtual environments")
+
+
 /home/user/Projects/flask-tutorial
 ├── flaskr/
 │   ├── __init__.py
