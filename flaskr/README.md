@@ -21,8 +21,6 @@ For this project, ensure that you have `python3`, `pip3` and `virtualenv` librar
 
 
 
-### Data Model
-
 
 
 # File Structure   
@@ -56,7 +54,10 @@ If you wish to run the tests, enter the following commands into your terminal:
 This contains the virtual environment where Flask and other dependencies are installed. 
 
 
-
 For more information on virtual environments go to: (https://docs.python.org/3/library/venv.html "Creation of virtual environments")
+
+### Data Model
+The application uses a SQLite database to store users and posts. 
+
 
 
