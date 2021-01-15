@@ -23,43 +23,21 @@ For this project, ensure that you have `python3`, `pip3` and `virtualenv` librar
 
 
 ### File Structure   
-The project directory contains:
+The file structure is laid out as follows:
 ## 1. Flaskr/
-This is the python package that contains the application code and files. 
-## 2. Tests/
-This contains all the test modules that ensure the code works as expected.
-## 3. venv/
+This is the python package that contains the application code and files. Some of the files that are in this directory are: 
+⋅⋅⋅ **schema.sql** Contains the sql set up for the database.
+⋅⋅⋅  **db.py**  Contains the database functions. 
+⋅⋅⋅ **auth.py** contains the functions and routes for registering, logging in and logging out. 
+⋅⋅⋅ **static/style.css** the style definitions are saved here. If you want to change the look of the website you can edit this file.
+⋅⋅⋅ **blog.py** contains blog related functions and routes. The functions that allow you to create, post, update and delete blog posts. When creating a blog post, errors are thrown if any of the fields are incomplete. 
+
+# 2. Tests/
+The tests directory contains comprehensive tests that ensure the code works as expected.
+# 3. venv/
 This contains the virtual environment where Flask and other dependencies are installed. 
 
 
 For more information on virtual environments go to: (https://docs.python.org/3/library/venv.html "Creation of virtual environments")
 
 
-/home/user/Projects/flask-tutorial
-├── flaskr/
-│   ├── __init__.py
-│   ├── db.py
-│   ├── schema.sql
-│   ├── auth.py
-│   ├── blog.py
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── auth/
-│   │   │   ├── login.html
-│   │   │   └── register.html
-│   │   └── blog/
-│   │       ├── create.html
-│   │       ├── index.html
-│   │       └── update.html
-│   └── static/
-│       └── style.css
-├── tests/
-│   ├── conftest.py
-│   ├── data.sql
-│   ├── test_factory.py
-│   ├── test_db.py
-│   ├── test_auth.py
-│   └── test_blog.py
-├── venv/
-├── setup.py
-└── MANIFEST.in
