@@ -1,9 +1,17 @@
 # Flaskr
 This is a basic blog application called Flaskr. Users are able to register, log in, create posts and edit or delete their own posts. 
 
+## Table of Contents
+* [Setup](#setup)
+* [File Structure](#file structure)
+    * [Flaskr](#flaskr)
+    * [Tests](#tests)
+    * [Venv](#venv)
+* [Database](#database)
+
 
 For this project, ensure that you have `python3`, `pip3` and `virtualenv` library set up.
-### Setup
+# Setup
 1. Clone this repo onto your local machine.
 2. From the root directory, create a virtualenv with the command:
     `python3 -m venv <name of your env>`
@@ -56,7 +64,7 @@ This contains the virtual environment where Flask and other dependencies are ins
 
 For more information on virtual environments go to: (https://docs.python.org/3/library/venv.html "Creation of virtual environments")
 
-### Data Model
+### Database
 The application uses a SQLite database to store users and posts. 
 
 
